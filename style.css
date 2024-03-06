@@ -1,90 +1,125 @@
 /* General styling for the entire body */
 body {
-    font-family: arial;          /* Set font family */
-    color: grey;                 /* Text color */
-    background-color: #040404;   /* Background color */
-    margin: unset;               /* Remove default margins */
-    padding-bottom: 2%;          /* Add padding to the bottom */
+    font-family: arial;
+    /* Set font family */
+    color: grey;
+    /* Text color */
+    background-color: #040404;
+    /* Background color */
+    margin: unset;
+    /* Remove default margins */
+    padding-bottom: 2%;
+    /* Add padding to the bottom */
 }
 
 /* Styling for the banner section */
 .banner {
-    /* background-image: url(images/banner1.svg); */  /* Commented out background image */
-    background-size: cover;      /* Cover the entire area */
-    background-position: center; /* Center the background image */
-    height: 18em;                /* Set height */
+    /* background-image: url(images/banner1.svg); */
+    /* Commented out background image */
+    background-size: cover;
+    /* Cover the entire area */
+    background-position: center;
+    /* Center the background image */
+    height: 18em;
+    /* Set height */
 }
 
 /* Styling for the left image in the banner */
 .left-img {
-    margin-left: 3em;           /* Set left margin */
-    margin-top: 3em;            /* Set top margin */
-    width: 12em;                /* Set width */
-    display: inline-block;      /* Display as inline block */
-    margin-right: 1em;          /* Set right margin */
+    margin-left: 3em;
+    /* Set left margin */
+    margin-top: 3em;
+    /* Set top margin */
+    width: 12em;
+    /* Set width */
+    display: inline-block;
+    /* Display as inline block */
+    margin-right: 1em;
+    /* Set right margin */
 }
 
 /* Styling for the left banner section */
 .left-banner {
-    margin-top: 1em;            /* Set top margin */
-    float: left;                /* Float to the left */
-    margin-left: 3em;           /* Set left margin */
+    margin-top: 1em;
+    /* Set top margin */
+    float: left;
+    /* Float to the left */
+    margin-left: 3em;
+    /* Set left margin */
 }
 
 /* Styling for the heading section */
 .heading {
-    display: inline-block;      /* Display as inline block */
+    display: inline-block;
+    /* Display as inline block */
 }
 
 /* Styling for the main section */
 .main-section {
-    margin: auto;               /* Center the content */
-    width: 80%;                 /* Set width */
+    margin: auto;
+    /* Center the content */
+    width: 80%;
+    /* Set width */
 }
 
 /* Styling for the table */
 table {
-    text-align: left;           /* Align text to the left */
+    text-align: left;
+    /* Align text to the left */
 }
 
 /* Styling for table header */
 th {
-    padding: 2em;               /* Set padding */
-    padding-left: 1.2em;        /* Set left padding */
-    font-size: large;           /* Set font size */
+    padding: 2em;
+    /* Set padding */
+    padding-left: 1.2em;
+    /* Set left padding */
+    font-size: large;
+    /* Set font size */
 }
 
 /* Styling for song number column */
 .song-number {
-    width: 20px;                /* Set width */
-    border-bottom: 2px solid grey; /* Add bottom border */
+    width: 20px;
+    /* Set width */
+    border-bottom: 2px solid grey;
+    /* Add bottom border */
 }
 
 /* Styling for song title column */
 .song-title {
-    width: 550px;               /* Set width */
-    border-bottom: 2px solid grey; /* Add bottom border */
+    width: 550px;
+    /* Set width */
+    border-bottom: 2px solid grey;
+    /* Add bottom border */
 }
 
 /* Styling for song artist column */
 .song-artist {
-    width: 250px;               /* Set width */
-    border-bottom: 2px solid grey; /* Add bottom border */
+    width: 250px;
+    /* Set width */
+    border-bottom: 2px solid grey;
+    /* Add bottom border */
 }
 
 /* Styling for song duration column */
 .song-duration {
-    width: 100px;               /* Set width */
-    border-bottom: 2px solid grey; /* Add bottom border */
+    width: 100px;
+    /* Set width */
+    border-bottom: 2px solid grey;
+    /* Add bottom border */
 }
 
 /* Hover effect for table rows */
 tr:hover {
-    color: white;               /* Change text color on hover */
+    color: white;
+    /* Change text color on hover */
 }
 
 /* Styling for control buttons */
 .controls img {
-    margin-top: 1em;            /* Set top margin */
-    width: 3.5em;               /* Set width */
+    margin-top: 1em;
+    /* Set top margin */
+    width: 3.5em;
+    /* Set width */
 }

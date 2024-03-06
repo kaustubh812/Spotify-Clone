@@ -3,38 +3,38 @@ window.addEventListener("DOMContentLoaded", function () {
     var bannerImage = document.querySelector(".banner .left-img");
     var bannerHeading = document.querySelector(".banner .heading h1");
     var bannerText = document.querySelector(".banner .heading p");
-  
+
     // Set the default banner image and text
     banner.style.backgroundImage = "url(images/banner1.svg)";
     bannerImage.setAttribute("src", "images/image.png");
     bannerHeading.textContent = "Deep Focus";
     bannerText.textContent = "Keep your focus and enjoy the serenity";
-  });
-  
-function playAll(songNumber){
-    var audioElement= document.getElementById("song");
-    var playBtn=document.getElementById("play-pause");
-    var songFileName = "music/"+songNumber+".mp3";
-    var currentRow= document.getElementById("song"+songNumber);
+});
+
+function playAll(songNumber) {
+    var audioElement = document.getElementById("song");
+    var playBtn = document.getElementById("play-pause");
+    var songFileName = "music/" + songNumber + ".mp3";
+    var currentRow = document.getElementById("song" + songNumber);
     var banner = document.querySelector(".banner");
     var bannerImage = document.querySelector(".banner .left-img");
     var bannerHeading = document.querySelector(".banner .heading h1");
     var bannerText = document.querySelector(".banner .heading p");
 
-    if(audioElement.getAttribute("src")==songFileName && !audioElement.paused){
+    if (audioElement.getAttribute("src") == songFileName && !audioElement.paused) {
         audioElement.pause();
-        playBtn.innerHTML='<img src="images/play-button.svg">';
-        
+        playBtn.innerHTML = '<img src="images/play-button.svg">';
+
         banner.style.backgroundImage = "url(images/banner1.svg)";
         bannerImage.setAttribute("src", "images/image.png");
         bannerHeading.textContent = "Deep Focus";
         bannerText.textContent = "Keep your focus and enjoy the serenity";
     }
-    else{
-        audioElement.setAttribute("src",songFileName);
+    else {
+        audioElement.setAttribute("src", songFileName);
         audioElement.play();
-        playBtn.innerHTML='<img src="images/pause-button.svg">';
-       
+        playBtn.innerHTML = '<img src="images/pause-button.svg">';
+
         if (songNumber === 1) {
             banner.style.backgroundImage = "url(images/b01.png)";
             bannerImage.setAttribute("src", "images/image 1.png");
@@ -97,15 +97,15 @@ function playAll(songNumber){
     }
 }
 
-function playaudio(){
-    var audio=document.getElementById("song");
-    var playBtn=document.getElementById("play-pause");
-    if(audio.paused){
+function playaudio() {
+    var audio = document.getElementById("song");
+    var playBtn = document.getElementById("play-pause");
+    if (audio.paused) {
         audio.play();
-        playBtn.innerHTML='<img src="images/pause-button.svg">';
+        playBtn.innerHTML = '<img src="images/pause-button.svg">';
     }
-    else{
+    else {
         audio.pause();
-        playBtn.innerHTML='<img src="images/play-button.svg">';
+        playBtn.innerHTML = '<img src="images/play-button.svg">';
     }
 }
